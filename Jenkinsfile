@@ -16,7 +16,7 @@ pipeline {
         stage ('Deploy to Staging'){
             steps {
                 /* Je gebruikt job die al in Jenkins staat */
-                build job: 'Deploy-to-staging'
+                build job: 'deploy-to-staging'
             }
         }
 
